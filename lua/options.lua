@@ -62,6 +62,3 @@ vim.o.ttyfast = true
 
 -- Disable creating swap file (uncomment if needed)
 -- vim.o.swapfile = false
-
--- Directory to store backup files
-vim.o.backupdir = "~/.cache/nvim"

@@ -7,17 +7,18 @@ return {
 		opts = {
 			ensure_installed = {
 				"bash",
-				"zsh",
 				"typst",
 				"latex",
+				"bibtex",
 				"c",
-				"c++",
-				"opencl",
+				"cpp",
+				"cmake",
 				"html",
 				"css",
 				"typescript",
 				"javascript",
 				"lua",
+				"teal",
 				"luadoc",
 				"markdown",
 				"markdown_inline",
@@ -25,7 +26,7 @@ return {
 				"vimdoc",
 			},
 			-- Autoinstall languages that are not installed
-			auto_install = true,
+			auto_install = false,
 			highlight = {
 				enable = true,
 				-- Some languages depend on vim's regex highlighting system (such as Ruby) for indent rules.
